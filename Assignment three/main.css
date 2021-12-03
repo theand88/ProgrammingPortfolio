@@ -1,0 +1,60 @@
+body {
+  background-image: url("images/mountain.jpg");
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.firstsquare {
+  position: fixed;
+  background-color:#212529;
+  width: 50%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .firstsquare {
+    display: none;
+  }
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid rgba(204, 204, 204, 0);
+  border-radius: 4px;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: #212529;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4775a0;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f200;
+  padding: 60px;
+}
+
+.containerme {
+  border-radius: 0px;
+  padding: 10px;
+}
+
+
+
